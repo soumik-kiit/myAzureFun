@@ -28,3 +28,5 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         'Content-Disposition': 'attachment; filename="example.csv"'
     }
     return func.HttpResponse(file_content, headers=headers)
+
+
